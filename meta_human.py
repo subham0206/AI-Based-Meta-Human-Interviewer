@@ -15,7 +15,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-os.environ["OPENAI_API_KEY"] = "sk-proj-PzzET1s6RIRNZ5jQ6NKcT3BlbkFJTQFoi6voweCdFyaxCeZJ"
+os.environ["OPENAI_API_KEY"] = "sk-proj-**********************************************"
 
 class ResumeAnalysis(BaseModel):
     technical_skills_match: Dict[str, float] = Field(description="Dictionary of technical skills and match percentage")
